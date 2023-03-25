@@ -88,6 +88,30 @@ namespace ConsoleApp1
             // uint : 32-bit unsigned int 0 to 4,294,967,295
             // ulong : 64-bit unsigned int 0 to 18,446,744,073,709,551,615
             // ushort : 16-bit unsigned int 0 to 65,535
+
+            // ----------------- Data type conversion -----------------
+
+            // You can convert from string to other types with Parse
+            bool boolFromString = bool.Parse("True");
+            int intFromString = int.Parse("100");
+            double dblFromString = double.Parse("1.234");
+
+            // Convert double into a string
+            string strVal = dblFromString.ToString();
+
+            // Get the data type of specific variable
+            Console.WriteLine($"Data type: {strVal.GetType()}");
+
+            // Cast double into integer using explicit conversion
+            // Put the data type to convert into between ()
+            double dblNum = 12.345;
+            Console.WriteLine($"Integer: {(int)dblNum}");
+
+            // Cast integer into long using implicit conversion
+            // Smaller size type into a larger size type
+            int intNum = 10;
+            long longNum = intNum;
+            Console.WriteLine($"longNum variable value is {longNum}.");
         }
     }
 }
