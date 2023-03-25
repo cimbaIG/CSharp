@@ -407,6 +407,29 @@ namespace ConsoleApp1
                 Console.WriteLine(j);
                 j++;
             }
+
+            // ----------------- Do-While loop -----------------
+            // Use do-while when you have to execute the code at least once.
+
+            // Generate random number
+            Random rnd = new Random();
+            int secretNumber = rnd.Next(1, 11);
+            int numberGuessed = 0;
+            Console.WriteLine("Random Num: ", secretNumber);
+
+            do
+            {
+                Console.Write("Enter a number between 1 and 10: ");
+                // Use Convert to switch the string into an int. Other convert
+                // options are ToBoolean, ToByte, ToChar, ToDecimal, ToInt64,
+                // ToString. By using them you can convert any type to any other
+                // type.
+                numberGuessed = Convert.ToInt32(Console.ReadLine());
+            }
+            while (secretNumber != numberGuessed);
+
+            Console.WriteLine("You guessed that the secret number was "
+                + $"{secretNumber}.");
         }
     }
 }
