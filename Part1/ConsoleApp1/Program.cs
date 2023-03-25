@@ -4,6 +4,14 @@ namespace ConsoleApp1
 {
     public class Program
     {
+        // Function prints the element values of an array
+        static void PrintArray(int[] intArray, string msg)
+        {
+            foreach (int k in intArray)
+            {
+                Console.WriteLine($"{msg}: {k}");
+            }
+        }
 
         /*
          Execution begins in the Main() function. Keyword static means that this
@@ -192,6 +200,121 @@ namespace ConsoleApp1
 
             // Verbatim strings ignore escape characters
             Console.WriteLine(@"Exactly What I Typed\n");
+
+            // ----------------- Arrays -----------------
+
+            // Arrays are boxes inside of a bigger box that can contain many
+            // values of the same data type. Each item is assigned a key
+            // starting at 0 and incrementing up from there.
+
+            // An array of ints which holds three int values.
+            // Important - Arrays have fixed sizes!
+            int[] favNums = new int[3];
+
+            // Add a value to the first element of an array
+            favNums[0] = 23;
+
+            // Retrieve a value from first element of an array
+            Console.WriteLine("favNum value at position 0: {0}", favNums[0]);
+
+            // Create array of strings and fill it with values
+            string[] customers = { "Bob", "Sally", "Sue" };
+
+            // The var keyword may be used to create arrays, but the values have
+            // to be of the same type.
+            var employees = new[] { "Mike", "Paul", "Rick" };
+
+            // Create an array of base objects which is the base type of all
+            // other types.
+            object[] randomArray = { "Paul", 45, 1.234 };
+
+            // Determine the data type of array element using GetType()
+            Console.WriteLine("The type of first element in array: {0}",
+                randomArray[0].GetType());
+
+            // Get number of items in an array
+            Console.WriteLine("Array size: {0}", randomArray.Length);
+
+            // Use for loop to cycle through an array and to print its values
+            for (int i = 0; i < randomArray.Length; i++)
+            {
+                Console.WriteLine("At array index {0}, value is {1}.",
+                    i, randomArray[i]);
+            }
+
+            // Multidimensional arrays
+            // When an array like arrayName[5] is defined, we basically say that
+            // we want to create boxes that are stacked vertically.
+            // If we define an array like arrayName[2,2], we say that we want to
+            // create two create array that is two rows high and that have two
+            // columns accross.
+            string[,] custNames = new string[2, 2] { { "Bob", "Smith" },
+                { "Sally", "Smith" } };
+
+            // Get a value of an element in multidimensional array
+            Console.WriteLine("Value of an element in multidimensional array:" +
+                " {0}", custNames.GetValue(1, 1));
+
+            // Cycle through the multidimensional array and print element values
+            for (int i = 0; i < custNames.GetLength(0); i++)
+            {
+                for (int k = 0; k < custNames.GetLength(1); k++)
+                {
+                    Console.WriteLine($"Array index [{i}][{k}]: "
+                        + $"Value = {custNames.GetValue(i, k)}");
+                }
+            }
+
+            // An array like arrayName[2,2,3] would be like a stack of three
+            // spreadsheets with two rows and two columns worth of data on each
+            // page.
+
+            // foreach may be used to easily cycle through the array elements
+            foreach (string custName in custNames)
+            {
+                Console.WriteLine($"Customer name: {custName}");
+            }
+
+            // Now we will define an array of ints
+            int[] randNums = { 1, 4, 9, 2 };
+
+            // We can pass an array as an argument to a function PrintArray that
+            // we defined.
+            PrintArray(randNums, "ForEach");
+
+            // How to sort array?
+            Array.Sort(randNums);
+
+            // How to reverse array elements?
+            Array.Reverse(randNums);
+
+            // Get index of match in an array or return -1
+            Console.WriteLine("1 at index: {0}", Array.IndexOf(randNums, 1));
+
+            // Change value at index 1 to 0
+            randNums.SetValue(0, 1);
+
+            // Copy part of an array to another array
+            int[] srcArray = { 1, 2, 3 };
+            int[] destArray = new int[2];
+            int startIndex = 0;
+            int length = 2;
+
+            Array.Copy(srcArray, startIndex, destArray, startIndex, length);
+            PrintArray(destArray, "Elements copied to destination array: ");
+
+            // Create an array with CreateInstance
+            Array anotherArray = Array.CreateInstance(typeof(int), 10);
+
+            // Copy values from srcArray to anotherArray starting
+            // at index 5 in destination.
+            srcArray.CopyTo(anotherArray, 5);
+
+            // Print element values of anotherArray
+            foreach (int m in anotherArray)
+            {
+                Console.WriteLine("CopyTo : {0} ", m);
+            }
         }
     }
 }
