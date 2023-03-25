@@ -382,6 +382,31 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Names are equal.");
             }
+
+            // ----------------- While loop -----------------
+            // Use while loop when you want to execute some program as long as
+            // a condition is true.
+            // This while loop will print odd numbers between 1 and 10.
+            int j = 1;
+            while (j <= 10)
+            {
+                // % (Modulus) returns the remainder of a division. If it
+                // returns 0 that means the value is even.
+                if (j % 2 == 0)
+                {
+                    j++;
+
+                    // Continue skips the rest of the code and starts execution
+                    // back at the top of the while loop.
+                    continue;
+                }
+
+                // Break jumps completely out of the loop.
+                if (j == 9) break;
+
+                Console.WriteLine(j);
+                j++;
+            }
         }
     }
 }
