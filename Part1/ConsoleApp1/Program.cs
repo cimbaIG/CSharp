@@ -94,6 +94,27 @@ namespace ConsoleApp1
             return dblX + dblY;
         }
 
+        // Function takes enum object as argument.
+        static void PaintCar(CarColor cc)
+        {
+            Console.WriteLine($"The car was painted {cc} with the code"
+                + $" {(int)cc}.");
+        }
+
+        // Example of Enum
+        // An enum is a custom data type with key value pairs. They allow us to
+        // use symbolic names to represent data. The first number is 0 by
+        // default unless we change it. We can define the underlying type or
+        // leave it as int as default.
+        enum CarColor : byte
+        {
+            Orange = 1,
+            Blue,
+            Green,
+            Red,
+            Yellow
+        }
+
         /*
          Execution begins in the Main() function. Keyword static means that this
          function can run without creating an object. Keyword void means that
@@ -703,6 +724,15 @@ namespace ConsoleApp1
             lunchTime = lunchTime.Subtract(new TimeSpan(0, 15, 0));
             lunchTime = lunchTime.Add(new TimeSpan(1, 0, 0));
             Console.WriteLine($"New Lunchtime: {lunchTime.ToString()}");
+
+            // ----------------- Enum -----------------
+
+            CarColor car1 = CarColor.Blue;
+            PaintCar(car1);
+
+            // Waits for input from the user. User has to press key to stop
+            // program executing.
+            Console.ReadKey();
         }
     }
 }
