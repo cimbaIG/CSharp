@@ -4,12 +4,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleApp1/Program.cs">
     <Files>
-      <File FileName="ConsoleApp1/Program.cs" Line="76" Column="16" />
+      <File FileName="ConsoleApp1/Program.cs" Line="674" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ConsoleApp1" expanded="True" selected="True">
+          <Node name="ConsoleApp1" expanded="True">
             <Node name="ConsoleApp1" expanded="True" />
           </Node>
         </State>

@@ -81,6 +81,19 @@ namespace ConsoleApp1
             Console.WriteLine($"{name} lives in the zip code {zipCode}.");
         }
 
+        // Method overloading example
+        static double GetSum2(double x = 1, double y = 1)
+        {
+            return x + y;
+        }
+
+        static double GetSum2(string x = "1", string y = "1")
+        {
+            double dblX = Convert.ToDouble(x);
+            double dblY = Convert.ToDouble(y);
+            return dblX + dblY;
+        }
+
         /*
          Execution begins in the Main() function. Keyword static means that this
          function can run without creating an object. Keyword void means that
@@ -660,6 +673,15 @@ namespace ConsoleApp1
             // parameters are used.
 
             PrintInfo(zipCode: 15147, name: "Big Mike");
+
+            // ----------------- Method overloading -----------------
+
+            // The methods with the same name may be defined. Method will be
+            // called based upon on the provided arguments.
+
+            Console.WriteLine($"5.0 + 4.5 = {GetSum2(5.0, 4.5)}");
+            Console.WriteLine($"5 + 4 = {GetSum2(5, 4)}");
+            Console.WriteLine($"5 + 4 = {GetSum2("5", "4")}");
         }
     }
 }
