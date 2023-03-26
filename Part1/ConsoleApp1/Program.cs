@@ -64,6 +64,23 @@ namespace ConsoleApp1
             num4 = temp;
         }
 
+        // The params array must be the last parameter in the list of arguments!
+        public static double GetSumMore(params double[] nums)
+        {
+            double sum = 0;
+            foreach (int i in nums)
+            {
+                sum += i; // sum = sum + i;
+            }
+            return sum;
+        }
+
+        // Example of named parameters
+        static void PrintInfo(string name, int zipCode)
+        {
+            Console.WriteLine($"{name} lives in the zip code {zipCode}.");
+        }
+
         /*
          Execution begins in the Main() function. Keyword static means that this
          function can run without creating an object. Keyword void means that
@@ -629,6 +646,20 @@ namespace ConsoleApp1
             Swap(ref num3, ref num4);
 
             Console.WriteLine($"After Swap - num3: {num3}, num4: {num4}");
+
+            // ----------------- Params -----------------
+
+            // How to pass arbitrary number of arguments to a function? This can
+            // be done using params! An array may be used for the same purposes.
+
+            Console.WriteLine($"1 + 2 + 3 = {GetSumMore(1, 2, 3)}");
+
+            // ----------------- Named paramaters (arguments) -----------------
+
+            // The argument values may be passed in any order if named
+            // parameters are used.
+
+            PrintInfo(zipCode: 15147, name: "Big Mike");
         }
     }
 }
