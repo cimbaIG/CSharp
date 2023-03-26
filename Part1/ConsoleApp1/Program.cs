@@ -13,6 +13,18 @@ namespace ConsoleApp1
             }
         }
 
+        // Function to divide two double type numbers
+        static double DoDivision(double a, double b)
+        {
+            if (b == 0)
+            {
+                // We are throwing an exception because it is not possible to
+                // divide by zero.
+                throw new System.DivideByZeroException();
+            }
+            return a / b;
+        }
+
         /*
          Execution begins in the Main() function. Keyword static means that this
          function can run without creating an object. Keyword void means that
@@ -378,7 +390,7 @@ namespace ConsoleApp1
             string name2 = "Derek";
             string name3 = "Derek";
 
-            if (name2.Equals(name3,StringComparison.Ordinal))
+            if (name2.Equals(name3, StringComparison.Ordinal))
             {
                 Console.WriteLine("Names are equal.");
             }
@@ -412,24 +424,58 @@ namespace ConsoleApp1
             // Use do-while when you have to execute the code at least once.
 
             // Generate random number
-            Random rnd = new Random();
-            int secretNumber = rnd.Next(1, 11);
-            int numberGuessed = 0;
-            Console.WriteLine("Random Num: ", secretNumber);
+            //Random rnd = new Random();
+            //int secretNumber = rnd.Next(1, 11);
+            //int numberGuessed = 0;
+            //Console.WriteLine("Random Num: ", secretNumber);
 
-            do
+            //do
+            //{
+            //    Console.Write("Enter a number between 1 and 10: ");
+            //    // Use Convert to switch the string into an int. Other convert
+            //    // options are ToBoolean, ToByte, ToChar, ToDecimal, ToInt64,
+            //    // ToString. By using them you can convert any type to any other
+            //    // type.
+            //    numberGuessed = Convert.ToInt32(Console.ReadLine());
+            //}
+            //while (secretNumber != numberGuessed);
+
+            //Console.WriteLine("You guessed that the secret number was "
+            //    + $"{secretNumber}.");
+
+            // ----------------- Exception handling -----------------
+            // We use exception handling to catch errors that could crash our
+            // program.
+            double num1 = 5;
+            double num2 = 0;
+
+            // Code that could case an error is surrounded by a try block.
+            try
             {
-                Console.Write("Enter a number between 1 and 10: ");
-                // Use Convert to switch the string into an int. Other convert
-                // options are ToBoolean, ToByte, ToChar, ToDecimal, ToInt64,
-                // ToString. By using them you can convert any type to any other
-                // type.
-                numberGuessed = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("5 / 0 = {0}", DoDivision(num1, num2));
             }
-            while (secretNumber != numberGuessed);
+            // We catch the error and warn the user rather than crash the
+            // program.
+            catch (DivideByZeroException ex)
+            {
+                Console.WriteLine("You cannot divide by zero.");
 
-            Console.WriteLine("You guessed that the secret number was "
-                + $"{secretNumber}.");
+                // Get additional info on the exception
+                Console.WriteLine(ex.GetType().Name);
+                Console.WriteLine(ex.Message);
+            }
+            // A default catch all for exceptions
+            catch (Exception ex)
+            {
+                Console.WriteLine("An error occurred.");
+                Console.WriteLine(ex.GetType().Name);
+                Console.WriteLine(ex.Message);
+            }
+            // Finally block always runs and provides for clean up
+            finally
+            {
+                Console.WriteLine("Cleaning up...");
+            }
         }
     }
 }
