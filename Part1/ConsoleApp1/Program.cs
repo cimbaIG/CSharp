@@ -27,6 +27,18 @@ namespace ConsoleApp1
             return a / b;
         }
 
+        // Function to print hello to console.
+        private static void SayHello()
+        {
+            // A string variable that is going to store the users input.
+            string name = "";
+            Console.Write("What is your name? ");
+            // Store users input
+            name = Console.ReadLine();
+            // Say hello to user
+            Console.WriteLine($"Hello, {name}!");
+        }
+
         /*
          Execution begins in the Main() function. Keyword static means that this
          function can run without creating an object. Keyword void means that
@@ -532,6 +544,23 @@ namespace ConsoleApp1
             // Remove 7 characters starting at index 11
             sb2.Remove(11, 7);
             Console.WriteLine(sb2.ToString());
+
+            // ----------------- Functions / Methods -----------------
+            // Functions are used to avoid the code duplication, to provide
+            // better code organization and to allow for simulating various
+            // systems.
+            // How to define function/method?
+            // <Access Specifier> <Return Type> <Method Name> (Parameters)
+            // {
+            //      <Function/Method Body>
+            // }
+            // Access Specifier determines whether the function can be called
+            // from another class. There are three different specifiers:
+            // public: Can be accessed from another class.
+            // protected: Can be accessed by a class and derived classes.
+            // private: Can't be accessed from another class.
+
+            SayHello();
         }
     }
 }
