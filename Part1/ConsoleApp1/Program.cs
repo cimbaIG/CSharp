@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text;
+using System.Globalization;
 
 namespace ConsoleApp1
 {
@@ -35,26 +37,26 @@ namespace ConsoleApp1
         {
             // ----------------- Console methods -----------------
 
-            // Change the text color in the console
-            Console.ForegroundColor = ConsoleColor.Black;
+            //// Change the text color in the console
+            //Console.ForegroundColor = ConsoleColor.Black;
 
-            // Change background color
-            Console.BackgroundColor = ConsoleColor.White;
+            //// Change background color
+            //Console.BackgroundColor = ConsoleColor.White;
 
-            // Set background color for entire console
-            Console.Clear();
+            //// Set background color for entire console
+            //Console.Clear();
 
-            // Print Hello World to the console
-            Console.WriteLine("Hello World!");
+            //// Print Hello World to the console
+            //Console.WriteLine("Hello World!");
 
-            // Print text to the console without a new line
-            Console.Write("What is your name? ");
+            //// Print text to the console without a new line
+            //Console.Write("What is your name? ");
 
-            // Store data entered by the user as a string variable
-            string name = Console.ReadLine();
+            //// Store data entered by the user as a string variable
+            //string name = Console.ReadLine();
 
-            // Say hello to the user who entered his name
-            Console.WriteLine($"Hello {name}!");
+            //// Say hello to the user who entered his name
+            //Console.WriteLine($"Hello {name}!");
 
             // ----------------- Variables -----------------
 
@@ -476,6 +478,60 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Cleaning up...");
             }
+
+            // ----------------- String builder -----------------
+            // Each time you change a string you are actually creating a new
+            // string which is inefficient when you are working with large
+            // blocks of text. StringBuilders actually change the text directly
+            // in memory rather than make a copy of it.
+
+            // Create a StringBuilder with a default size of 16 characters, but
+            // it grows automatically.
+            StringBuilder sb = new StringBuilder("Random text");
+
+            // Create a StringBuilder with size of 256.
+            StringBuilder sb2 = new StringBuilder("More stuff that "
+                + "is very important", 256);
+
+            // Get max size
+            Console.WriteLine("Capacity: {0}", sb2.Capacity);
+
+            // Get length
+            Console.WriteLine("Length: {0}", sb2.Length);
+
+            // Add some text to StringBuilder
+            sb2.AppendLine("\nMore important text...");
+
+            // Define culture specific formating
+            CultureInfo enUS = CultureInfo.CreateSpecificCulture("en-US");
+
+            // Append defined culture format to a string
+            string bestCustomer = "Bob Smith";
+            sb2.AppendFormat(enUS, "Best customer: {0}", bestCustomer);
+
+            // Output current StringBuilder text
+            Console.WriteLine(sb2.ToString());
+
+            // Replace a string inside a StringBuilder with a string
+            sb2.Replace("text", "characters");
+            Console.WriteLine(sb2.ToString());
+
+            // Clear a StringBuilder
+            sb2.Clear();
+
+            // Append some text to a StringBuilder
+            sb2.Append("Random text");
+
+            // Check if two StringBuilder objects are the same
+            Console.WriteLine(sb.Equals(sb2));
+
+            // Insert some text at index 11
+            sb2.Insert(11, " that's great");
+            Console.WriteLine(sb2.ToString());
+
+            // Remove 7 characters starting at index 11
+            sb2.Remove(11, 7);
+            Console.WriteLine(sb2.ToString());
         }
     }
 }
