@@ -39,6 +39,31 @@ namespace ConsoleApp1
             Console.WriteLine($"Hello, {name}!");
         }
 
+        // We can define a default argument value in a function declaration. In
+        // that case it is optional to pass this argument.
+        static double GetSum(double x = 1, double y = 1)
+        {
+            double temp = x;
+            x = y;
+            y = temp;
+            return x + y;
+        }
+
+        // An argument marked with out must be assigned a value inside the
+        // method.
+        static void DoubleIt(int x, out int solution)
+        {
+            solution = x * 2;
+        }
+
+        // Pass an argument as reference.
+        public static void Swap(ref int num3, ref int num4)
+        {
+            int temp = num3;
+            num3 = num4;
+            num4 = temp;
+        }
+
         /*
          Execution begins in the Main() function. Keyword static means that this
          function can run without creating an object. Keyword void means that
@@ -561,6 +586,49 @@ namespace ConsoleApp1
             // private: Can't be accessed from another class.
 
             SayHello();
+
+            // ----------------- Passing an argument by value -----------------
+
+            // By default, values are passed into a method and not a reference
+            // to the passed variables. This means that all changes made to
+            // those values inside the function do not affect the variables
+            // outside the function body.
+
+            double x = 5;
+            double y = 4;
+
+            Console.WriteLine($"5 + 4 = {GetSum(x, y)}");
+
+            // Even though the value of variable x has changed inside the
+            // method, its value remains unchanged outside.
+            Console.WriteLine("x = {0}", x);
+
+            // ------------- Passing an argument by out parameter -------------
+
+            // An argument may be passed to a method by out parameter as an
+            // output variable, without assigning a value to it.
+
+            int solution;
+
+            // A parameter passed with out has its value assigned inside the
+            // method.
+
+            DoubleIt(15, out solution);
+
+            Console.WriteLine("15 * 2 = {0}", solution);
+
+            // ------------- Passing an argument by reference -------------
+
+            // If an argument is passed by reference, all changes made to that
+            // argument inside the method are also made outside the method.
+            int num3 = 10;
+            int num4 = 20;
+
+            Console.WriteLine($"Before Swap - num3: {num3}, num4: {num4}");
+
+            Swap(ref num3, ref num4);
+
+            Console.WriteLine($"After Swap - num3: {num3}, num4: {num4}");
         }
     }
 }
