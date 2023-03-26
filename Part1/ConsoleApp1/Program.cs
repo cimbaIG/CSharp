@@ -125,26 +125,26 @@ namespace ConsoleApp1
         {
             // ----------------- Console methods -----------------
 
-            //// Change the text color in the console
-            //Console.ForegroundColor = ConsoleColor.Black;
+            // Change the text color in the console
+            Console.ForegroundColor = ConsoleColor.Black;
 
-            //// Change background color
-            //Console.BackgroundColor = ConsoleColor.White;
+            // Change background color
+            Console.BackgroundColor = ConsoleColor.White;
 
-            //// Set background color for entire console
-            //Console.Clear();
+            // Set background color for entire console
+            Console.Clear();
 
-            //// Print Hello World to the console
-            //Console.WriteLine("Hello World!");
+            // Print Hello World to the console
+            Console.WriteLine("Hello World!");
 
-            //// Print text to the console without a new line
-            //Console.Write("What is your name? ");
+            // Print text to the console without a new line
+            Console.Write("What is your name? ");
 
-            //// Store data entered by the user as a string variable
-            //string name = Console.ReadLine();
+            // Store data entered by the user as a string variable
+            string name = Console.ReadLine();
 
-            //// Say hello to the user who entered his name
-            //Console.WriteLine($"Hello {name}!");
+            // Say hello to the user who entered his name
+            Console.WriteLine($"Hello {name}!");
 
             // ----------------- Variables -----------------
 
@@ -419,6 +419,7 @@ namespace ConsoleApp1
             }
 
             // ----------------- If-Else statements -----------------
+
             // Relational Operators : > < >= <= == !=
             // Logical Operators : && || !
 
@@ -486,6 +487,7 @@ namespace ConsoleApp1
             }
 
             // ----------------- While loop -----------------
+
             // Use while loop when you want to execute some program as long as
             // a condition is true.
             // This while loop will print odd numbers between 1 and 10.
@@ -511,29 +513,31 @@ namespace ConsoleApp1
             }
 
             // ----------------- Do-While loop -----------------
+
             // Use do-while when you have to execute the code at least once.
 
             // Generate random number
-            //Random rnd = new Random();
-            //int secretNumber = rnd.Next(1, 11);
-            //int numberGuessed = 0;
-            //Console.WriteLine("Random Num: ", secretNumber);
+            Random rnd = new Random();
+            int secretNumber = rnd.Next(1, 11);
+            int numberGuessed = 0;
+            Console.WriteLine("Random Num: ", secretNumber);
 
-            //do
-            //{
-            //    Console.Write("Enter a number between 1 and 10: ");
-            //    // Use Convert to switch the string into an int. Other convert
-            //    // options are ToBoolean, ToByte, ToChar, ToDecimal, ToInt64,
-            //    // ToString. By using them you can convert any type to any other
-            //    // type.
-            //    numberGuessed = Convert.ToInt32(Console.ReadLine());
-            //}
-            //while (secretNumber != numberGuessed);
+            do
+            {
+                Console.Write("Enter a number between 1 and 10: ");
+                // Use Convert to switch the string into an int. Other convert
+                // options are ToBoolean, ToByte, ToChar, ToDecimal, ToInt64,
+                // ToString. By using them you can convert any type to any other
+                // type.
+                numberGuessed = Convert.ToInt32(Console.ReadLine());
+            }
+            while (secretNumber != numberGuessed);
 
-            //Console.WriteLine("You guessed that the secret number was "
-            //    + $"{secretNumber}.");
+            Console.WriteLine("You guessed that the secret number was "
+                + $"{secretNumber}.");
 
             // ----------------- Exception handling -----------------
+
             // We use exception handling to catch errors that could crash our
             // program.
             double num1 = 5;
@@ -568,6 +572,7 @@ namespace ConsoleApp1
             }
 
             // ----------------- String builder -----------------
+
             // Each time you change a string you are actually creating a new
             // string which is inefficient when you are working with large
             // blocks of text. StringBuilders actually change the text directly
@@ -622,6 +627,7 @@ namespace ConsoleApp1
             Console.WriteLine(sb2.ToString());
 
             // ----------------- Functions / Methods -----------------
+
             // Functions are used to avoid the code duplication, to provide
             // better code organization and to allow for simulating various
             // systems.
