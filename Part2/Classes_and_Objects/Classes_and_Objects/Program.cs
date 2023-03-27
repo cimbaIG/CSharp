@@ -59,6 +59,28 @@ namespace ClassesAndObjects
 
             Console.WriteLine($"Area of Rectangle: "
                 + $"{ShapeMath.GetArea("rectangle", 5, 6)}");
+
+            // ------------------ Nullable types ------------------
+
+            // Data types by default cannot have a value of null. Often null is
+            // needed when we work with databases. We can create a null type by
+            // adding ? to the definition.
+
+            int? randNum = null;
+
+            // Check for null
+            if (randNum == null)
+            {
+                Console.WriteLine("randNum is null");
+            }
+
+            // Another check for null
+            if (!randNum.HasValue)
+            {
+                Console.WriteLine("randNum is null");
+            }
+
+            Console.ReadKey();
         }
     }
 }
