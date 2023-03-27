@@ -1,0 +1,15 @@
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/obj/Debug/net7.0/ClassesAndObjects.csproj.AssemblyReference.cache
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/obj/Debug/net7.0/ClassesAndObjects.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/obj/Debug/net7.0/ClassesAndObjects.AssemblyInfoInputs.cache
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/obj/Debug/net7.0/ClassesAndObjects.AssemblyInfo.cs
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/obj/Debug/net7.0/ClassesAndObjects.csproj.CoreCompileInputs.cache
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/bin/Debug/net7.0/ClassesAndObjects
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/bin/Debug/net7.0/ClassesAndObjects.deps.json
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/bin/Debug/net7.0/ClassesAndObjects.runtimeconfig.json
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/bin/Debug/net7.0/ClassesAndObjects.dll
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/bin/Debug/net7.0/ClassesAndObjects.pdb
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/obj/Debug/net7.0/ClassesAndObjects.dll
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/obj/Debug/net7.0/refint/ClassesAndObjects.dll
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/obj/Debug/net7.0/ClassesAndObjects.pdb
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/obj/Debug/net7.0/ClassesAndObjects.genruntimeconfig.cache
+/Users/mihaelcindori/Projects/CSharp/Part3/ClassesAndObjects/ClassesAndObjects/obj/Debug/net7.0/ref/ClassesAndObjects.dll

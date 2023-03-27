@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{AAA2A78E-B17E-4A3E-8C44-26D7AFFD2DD0}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ClassesAndObjects PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClassesAndObjects/Animal.cs">
+    <Files>
+      <File FileName="ClassesAndObjects/Program.cs" Line="2" Column="1" />
+      <File FileName="ClassesAndObjects/Animal.cs" Line="36" Column="58" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ClassesAndObjects" expanded="True">
+            <Node name="ClassesAndObjects" expanded="True">
+              <Node name="Animal.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
