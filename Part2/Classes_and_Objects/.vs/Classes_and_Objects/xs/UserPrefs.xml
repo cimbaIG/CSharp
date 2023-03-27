@@ -1,4 +1,27 @@
 ﻿<Properties StartupConfiguration="{9FFEC1B4-DB14-49DF-8F3B-ADB12B5EB259}|Default">
-  <MonoDevelop.Ide.ItemProperties.ClassesAndObjects FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ClassesAndObjects PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Classes_and_Objects/Program.cs">
+    <Files>
+      <File FileName="Classes_and_Objects/Program.cs" Line="80" Column="54" />
+      <File FileName="Classes_and_Objects/Animal.cs" Line="58" Column="4" />
+      <File FileName="Classes_and_Objects/ShapeMath.cs" Line="5" Column="68" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Classes_and_Objects" expanded="True">
+            <Node name="ClassesAndObjects" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
