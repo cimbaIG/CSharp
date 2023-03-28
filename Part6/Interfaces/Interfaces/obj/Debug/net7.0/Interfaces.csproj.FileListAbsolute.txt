@@ -1,0 +1,15 @@
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/bin/Debug/net7.0/Interfaces
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/bin/Debug/net7.0/Interfaces.deps.json
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/bin/Debug/net7.0/Interfaces.runtimeconfig.json
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/bin/Debug/net7.0/Interfaces.dll
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/bin/Debug/net7.0/Interfaces.pdb
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/obj/Debug/net7.0/Interfaces.csproj.AssemblyReference.cache
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/obj/Debug/net7.0/Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/obj/Debug/net7.0/Interfaces.AssemblyInfoInputs.cache
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/obj/Debug/net7.0/Interfaces.AssemblyInfo.cs
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/obj/Debug/net7.0/Interfaces.csproj.CoreCompileInputs.cache
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/obj/Debug/net7.0/Interfaces.dll
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/obj/Debug/net7.0/refint/Interfaces.dll
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/obj/Debug/net7.0/Interfaces.pdb
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/obj/Debug/net7.0/Interfaces.genruntimeconfig.cache
+/Users/mihaelcindori/Projects/CSharp/Part6/Interfaces/Interfaces/obj/Debug/net7.0/ref/Interfaces.dll
