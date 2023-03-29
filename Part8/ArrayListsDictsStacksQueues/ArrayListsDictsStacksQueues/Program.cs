@@ -111,6 +111,48 @@ namespace ArrayListsDictsStacksQueues
 
             #endregion
 
+            // ------------------- Queues -------------------
+
+            // Queue represents the first in, first out collection.
+
+            #region Queues code
+
+            // Create a queue
+            Queue queue = new Queue();
+
+            // Add values to queue using Enqueue() method
+            for (int i = 1; i < 4; i++)
+            {
+                queue.Enqueue(i);
+            }
+
+            // Check if item is in a queue
+            Console.WriteLine("1 in Queue: {0}", queue.Contains(1));
+
+            // Remove first item from a queue using Dequeue() method
+            Console.WriteLine("Remove 1 from queue: {0}", queue.Dequeue());
+
+            // Look for the first item in a queue but do not remove it!
+            Console.WriteLine("Peek 1: {0}", queue.Peek());
+
+            // Copy queue to an array
+            object[] numArray = queue.ToArray();
+
+            // Print array items in one line and separate them using the
+            // String.Join() method.
+            Console.WriteLine(String.Join(", ", numArray));
+
+            // Print queue items by foreach looping.
+            foreach (object o in queue)
+            {
+                Console.WriteLine($"Queue: {o}");
+            }
+
+            // Clear the queue
+            queue.Clear();
+
+            #endregion
+
             Console.ReadKey();
         }
     }
