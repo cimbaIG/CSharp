@@ -1,4 +1,23 @@
 ﻿<Properties StartupConfiguration="{81589113-52CF-4DA1-85B8-AC9CF8806637}|Default">
-  <MonoDevelop.Ide.ItemProperties.ArrayListsDictsStacksQueues FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ArrayListsDictsStacksQueues PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ArrayListsDictsStacksQueues/Program.cs">
+    <Files>
+      <File FileName="ArrayListsDictsStacksQueues/Program.cs" Line="10" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ArrayListsDictsStacksQueues" expanded="True">
+            <Node name="ArrayListsDictsStacksQueues" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>

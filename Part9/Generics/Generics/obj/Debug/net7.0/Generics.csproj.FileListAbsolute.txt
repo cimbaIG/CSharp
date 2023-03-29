@@ -1,0 +1,15 @@
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/bin/Debug/net7.0/Generics
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/bin/Debug/net7.0/Generics.deps.json
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/bin/Debug/net7.0/Generics.runtimeconfig.json
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/bin/Debug/net7.0/Generics.dll
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/bin/Debug/net7.0/Generics.pdb
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/obj/Debug/net7.0/Generics.csproj.AssemblyReference.cache
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/obj/Debug/net7.0/Generics.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/obj/Debug/net7.0/Generics.AssemblyInfoInputs.cache
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/obj/Debug/net7.0/Generics.AssemblyInfo.cs
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/obj/Debug/net7.0/Generics.csproj.CoreCompileInputs.cache
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/obj/Debug/net7.0/Generics.dll
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/obj/Debug/net7.0/refint/Generics.dll
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/obj/Debug/net7.0/Generics.pdb
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/obj/Debug/net7.0/Generics.genruntimeconfig.cache
+/Users/mihaelcindori/Projects/CSharp/Part9/Generics/Generics/obj/Debug/net7.0/ref/Generics.dll

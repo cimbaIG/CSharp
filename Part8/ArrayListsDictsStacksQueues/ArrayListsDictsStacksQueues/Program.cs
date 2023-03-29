@@ -153,6 +153,44 @@ namespace ArrayListsDictsStacksQueues
 
             #endregion
 
+            // ------------------- Stacks -------------------
+
+            // Stacks represent the last in, first out collection.
+
+            #region Stacks code
+
+            // Create a stack
+            Stack stack = new Stack();
+
+            // Put items on the stack
+            for (int i = 1; i < 4; i++)
+            {
+                stack.Push(i);
+            }
+
+            // Get item (but do not remove it)
+            Console.WriteLine("Peek 1: {0}", stack.Peek());
+
+            // Remove item from the stack
+            Console.WriteLine("Pop 1: {0}", stack.Pop());
+
+            // Does item exist on the stack
+            Console.WriteLine("Contain 1: {0}", stack.Contains(1));
+
+            // Copy stack to an array
+            object[] numArray2 = stack.ToArray();
+
+            // Print array
+            Console.WriteLine(String.Join(", ", numArray2));
+
+            // Print the stack
+            foreach (object o in stack)
+            {
+                Console.WriteLine($"Stack: {o}");
+            }
+
+            #endregion
+
             Console.ReadKey();
         }
     }
