@@ -1,4 +1,29 @@
 ﻿<Properties StartupConfiguration="{51B0DE47-9C7C-48A8-88F0-D2CB540F0D53}|Default">
-  <MonoDevelop.Ide.ItemProperties.WarriorsFightToTheDeath FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WarriorsFightToTheDeath PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WarriorsFightToTheDeath/Program.cs">
+    <Files>
+      <File FileName="WarriorsFightToTheDeath/Program.cs" Line="20" Column="2" />
+      <File FileName="WarriorsFightToTheDeath/Warrior.cs" Line="34" Column="73" />
+      <File FileName="WarriorsFightToTheDeath/Battle.cs" Line="62" Column="68" />
+      <File FileName="WarriorsFightToTheDeath/ITeleports.cs" Line="7" Column="21" />
+      <File FileName="WarriorsFightToTheDeath/CanTeleport.cs" Line="8" Column="10" />
+      <File FileName="WarriorsFightToTheDeath/CantTeleport.cs" Line="9" Column="43" />
+      <File FileName="WarriorsFightToTheDeath/MagicWarrior.cs" Line="35" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WarriorsFightToTheDeath" expanded="True">
+            <Node name="WarriorsFightToTheDeath" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>

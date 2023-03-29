@@ -1,0 +1,15 @@
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/bin/Debug/net7.0/ArrayListsDictsStacksQueues
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/bin/Debug/net7.0/ArrayListsDictsStacksQueues.deps.json
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/bin/Debug/net7.0/ArrayListsDictsStacksQueues.runtimeconfig.json
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/bin/Debug/net7.0/ArrayListsDictsStacksQueues.dll
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/bin/Debug/net7.0/ArrayListsDictsStacksQueues.pdb
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/obj/Debug/net7.0/ArrayListsDictsStacksQueues.csproj.AssemblyReference.cache
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/obj/Debug/net7.0/ArrayListsDictsStacksQueues.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/obj/Debug/net7.0/ArrayListsDictsStacksQueues.AssemblyInfoInputs.cache
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/obj/Debug/net7.0/ArrayListsDictsStacksQueues.AssemblyInfo.cs
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/obj/Debug/net7.0/ArrayListsDictsStacksQueues.csproj.CoreCompileInputs.cache
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/obj/Debug/net7.0/ArrayListsDictsStacksQueues.dll
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/obj/Debug/net7.0/refint/ArrayListsDictsStacksQueues.dll
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/obj/Debug/net7.0/ArrayListsDictsStacksQueues.pdb
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/obj/Debug/net7.0/ArrayListsDictsStacksQueues.genruntimeconfig.cache
+/Users/mihaelcindori/Projects/CSharp/Part8/ArrayListsDictsStacksQueues/ArrayListsDictsStacksQueues/obj/Debug/net7.0/ref/ArrayListsDictsStacksQueues.dll
