@@ -73,6 +73,44 @@ namespace ArrayListsDictsStacksQueues
 
             #endregion
 
+            // ------------------- Dictionaries -------------------
+
+            #region Dictionary code
+
+            // Dictionaries store key-value pairs. To create dictionary, we
+            // first have to define the data type of the key and the value.
+            Dictionary<string, string> superheroes
+                = new Dictionary<string, string>();
+
+            // Add some key-value pairs to our dictionary
+            superheroes.Add("Clark Kent", "Supermen");
+            superheroes.Add("Bruce Wayne", "Batman");
+            superheroes.Add("Barry West", "Flash");
+
+            // Remove a key-value pair from dictionary
+            superheroes.Remove("Barry West");
+
+            // Get the number of keys in dictionary
+            Console.WriteLine("Count: {0}", superheroes.Count);
+
+            // Check if a key is present inside particular dictionary
+            Console.WriteLine("Clark Kent: {0}", superheroes.ContainsKey("Clark Kent"));
+
+            // Get the value of the key and store it into a string
+            superheroes.TryGetValue("Clark Kent", out string test);
+            Console.WriteLine("Clark Kent: {0}", test);
+
+            // Cycle through all the key-value pairs inside dictionary
+            foreach (KeyValuePair<string, string> item in superheroes)
+            {
+                Console.WriteLine("{0}: {1}", item.Key, item.Value);
+            }
+
+            // Clear a dictionary
+            superheroes.Clear();
+
+            #endregion
+
             Console.ReadKey();
         }
     }
