@@ -1,0 +1,15 @@
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/bin/Debug/net7.0/WarriorsFightToTheDeath
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/bin/Debug/net7.0/WarriorsFightToTheDeath.deps.json
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/bin/Debug/net7.0/WarriorsFightToTheDeath.runtimeconfig.json
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/bin/Debug/net7.0/WarriorsFightToTheDeath.dll
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/bin/Debug/net7.0/WarriorsFightToTheDeath.pdb
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/obj/Debug/net7.0/WarriorsFightToTheDeath.csproj.AssemblyReference.cache
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/obj/Debug/net7.0/WarriorsFightToTheDeath.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/obj/Debug/net7.0/WarriorsFightToTheDeath.AssemblyInfoInputs.cache
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/obj/Debug/net7.0/WarriorsFightToTheDeath.AssemblyInfo.cs
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/obj/Debug/net7.0/WarriorsFightToTheDeath.csproj.CoreCompileInputs.cache
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/obj/Debug/net7.0/WarriorsFightToTheDeath.dll
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/obj/Debug/net7.0/refint/WarriorsFightToTheDeath.dll
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/obj/Debug/net7.0/WarriorsFightToTheDeath.pdb
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/obj/Debug/net7.0/WarriorsFightToTheDeath.genruntimeconfig.cache
+/Users/mihaelcindori/Projects/CSharp/Part7/WarriorsFightToTheDeath/WarriorsFightToTheDeath/obj/Debug/net7.0/ref/WarriorsFightToTheDeath.dll
