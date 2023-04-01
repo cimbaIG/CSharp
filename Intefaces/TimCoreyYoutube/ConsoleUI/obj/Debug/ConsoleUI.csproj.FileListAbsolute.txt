@@ -1,0 +1,11 @@
+C:\Users\Mihael Cindori\Desktop\CSharp\Intefaces\TimCoreyYoutube\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\Mihael Cindori\Desktop\CSharp\Intefaces\TimCoreyYoutube\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\Mihael Cindori\Desktop\CSharp\Intefaces\TimCoreyYoutube\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\Mihael Cindori\Desktop\CSharp\Intefaces\TimCoreyYoutube\ConsoleUI\bin\Debug\DemoLibrary.dll
+C:\Users\Mihael Cindori\Desktop\CSharp\Intefaces\TimCoreyYoutube\ConsoleUI\bin\Debug\DemoLibrary.pdb
+C:\Users\Mihael Cindori\Desktop\CSharp\Intefaces\TimCoreyYoutube\ConsoleUI\obj\Debug\ConsoleUI.csproj.AssemblyReference.cache
+C:\Users\Mihael Cindori\Desktop\CSharp\Intefaces\TimCoreyYoutube\ConsoleUI\obj\Debug\ConsoleUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mihael Cindori\Desktop\CSharp\Intefaces\TimCoreyYoutube\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\Mihael Cindori\Desktop\CSharp\Intefaces\TimCoreyYoutube\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+C:\Users\Mihael Cindori\Desktop\CSharp\Intefaces\TimCoreyYoutube\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\Mihael Cindori\Desktop\CSharp\Intefaces\TimCoreyYoutube\ConsoleUI\obj\Debug\ConsoleUI.pdb
