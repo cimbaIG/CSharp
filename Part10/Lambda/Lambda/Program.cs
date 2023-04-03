@@ -139,6 +139,15 @@ namespace Lambda
             Console.WriteLine("Except: {0}",
                 string.Join(", ", numList7.Except(numList8)));
 
+            // ----------------------- INTERSECT -----------------------
+
+            // Receives two lists and returns the values that both lists have.
+
+            var numList9 = new List<int>() { 1, 2, 3, 2, 3 };
+            var numList10 = new List<int>() { 3 };
+            Console.WriteLine("Intersect: {0}",
+                string.Join(", ", numList9.Intersect(numList10)));
+
             Console.ReadLine();
         }
     }
