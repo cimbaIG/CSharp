@@ -105,6 +105,14 @@ namespace Lambda
             Console.WriteLine("Average: {0}",
                 numList3.AsQueryable().Average());
 
+            // ----------------------- ALL -----------------------
+
+            // Determines if all items in a list meet a condition.
+
+            var numList4 = new List<int>() { 1, 2, 3, 4, 5 };
+            Console.WriteLine("Any > 3: {0}",
+                numList4.All(a => a > 3));
+
             Console.ReadLine();
         }
     }
