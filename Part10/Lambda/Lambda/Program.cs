@@ -63,6 +63,19 @@ namespace Lambda
             foreach (var name in sNameList)
                 Console.WriteLine(name);
 
+            // ----------------------- SELECT -----------------------
+
+            // Select allows us to execute function on each item in a list.
+
+            // Generate a list from 1 to 10
+            var oneTo10 = new List<int>();
+            oneTo10.AddRange(Enumerable.Range(1, 10));
+            var squares = oneTo10.Select(x => x * x);
+            foreach (var l in squares)
+            {
+                Console.WriteLine(l);
+            }
+
             Console.ReadLine();
         }
     }
