@@ -110,8 +110,16 @@ namespace Lambda
             // Determines if all items in a list meet a condition.
 
             var numList4 = new List<int>() { 1, 2, 3, 4, 5 };
-            Console.WriteLine("Any > 3: {0}",
+            Console.WriteLine("All > 3: {0}",
                 numList4.All(a => a > 3));
+
+            // ----------------------- ANY -----------------------
+
+            // Determines if any item in a list meet a condition.
+
+            var numList5 = new List<int>() { 1, 2, 3, 4, 5 };
+            Console.WriteLine("Any > 3: {0}",
+                numList4.Any(a => a > 3));
 
             Console.ReadLine();
         }
