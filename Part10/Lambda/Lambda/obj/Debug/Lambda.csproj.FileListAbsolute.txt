@@ -1,0 +1,8 @@
+C:\Users\Mihael Cindori\Desktop\CSharp\Part10\Lambda\Lambda\bin\Debug\Lambda.exe.config
+C:\Users\Mihael Cindori\Desktop\CSharp\Part10\Lambda\Lambda\bin\Debug\Lambda.exe
+C:\Users\Mihael Cindori\Desktop\CSharp\Part10\Lambda\Lambda\bin\Debug\Lambda.pdb
+C:\Users\Mihael Cindori\Desktop\CSharp\Part10\Lambda\Lambda\obj\Debug\Lambda.csproj.AssemblyReference.cache
+C:\Users\Mihael Cindori\Desktop\CSharp\Part10\Lambda\Lambda\obj\Debug\Lambda.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mihael Cindori\Desktop\CSharp\Part10\Lambda\Lambda\obj\Debug\Lambda.csproj.CoreCompileInputs.cache
+C:\Users\Mihael Cindori\Desktop\CSharp\Part10\Lambda\Lambda\obj\Debug\Lambda.exe
+C:\Users\Mihael Cindori\Desktop\CSharp\Part10\Lambda\Lambda\obj\Debug\Lambda.pdb

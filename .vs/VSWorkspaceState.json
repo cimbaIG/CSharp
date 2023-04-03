@@ -1,16 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Generics\\TimCoreyYoutube",
-    "\\Generics\\TimCoreyYoutube\\ConsoleUI",
-    "\\Generics\\TimCoreyYoutube\\ConsoleUI\\Models",
-    "\\Generics\\TimCoreyYoutube\\ConsoleUI\\obj",
-    "\\Generics\\TimCoreyYoutube\\ConsoleUI\\obj\\Debug",
-    "\\Generics\\TimCoreyYoutube\\ConsoleUI\\Properties",
-    "\\Generics\\TimCoreyYoutube\\ConsoleUI\\WithGenerics",
-    "\\Generics\\TimCoreyYoutube\\ConsoleUI\\WithoutGenerics",
-    "\\Part10"
+    "\\Part10",
+    "\\Part10\\Lambda",
+    "\\Part10\\Lambda\\Lambda"
   ],
-  "SelectedNode": "\\Part10",
+  "SelectedNode": "\\Part10\\Lambda\\Lambda\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
