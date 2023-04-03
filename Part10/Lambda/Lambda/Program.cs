@@ -76,6 +76,16 @@ namespace Lambda
                 Console.WriteLine(l);
             }
 
+            // ----------------------- ZIP -----------------------
+
+            // Zip applies a function to two lists. For instance, add values in
+            // two lists together.
+            var listOne = new List<int>(new int[] { 1, 3, 4 });
+            var listTwo = new List<int>(new int[] { 4, 6, 8 });
+            var sumList = listOne.Zip(listTwo, (x, y) => x + y).ToList();
+            foreach (var l in sumList)
+                Console.WriteLine(l);
+
             Console.ReadLine();
         }
     }
