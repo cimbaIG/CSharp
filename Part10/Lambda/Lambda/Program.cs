@@ -97,6 +97,14 @@ namespace Lambda
             Console.WriteLine("Sum: {0}",
                 numList2.Aggregate((a, b) => a + b));
 
+            // ----------------------- AVERAGE -----------------------
+
+            // Get the average value of a list of values.
+
+            var numList3 = new List<int>() { 1, 2, 3, 4, 5 };
+            Console.WriteLine("Average: {0}",
+                numList3.AsQueryable().Average());
+
             Console.ReadLine();
         }
     }
