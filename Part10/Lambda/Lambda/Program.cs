@@ -124,9 +124,20 @@ namespace Lambda
             // ----------------------- DISTINCT -----------------------
 
             // Eliminates duplicates from a list.
+
             var numList6 = new List<int>() { 1, 2, 3, 2, 3 };
             Console.WriteLine("Distinct: {0}",
                 string.Join(", ", numList6.Distinct()));
+
+            // ----------------------- EXCEPT -----------------------
+
+            // Receives two lists and returns values that do not exist in
+            // the 2nd list.
+
+            var numList7 = new List<int>() { 1, 2, 3, 2, 3 };
+            var numList8 = new List<int>() { 3 };
+            Console.WriteLine("Except: {0}",
+                string.Join(", ", numList7.Except(numList8)));
 
             Console.ReadLine();
         }
