@@ -1,0 +1,8 @@
+C:\Users\Mihael Cindori\Desktop\CSharp\Part11\Enumerables\Enumerables\obj\Debug\Enumerables.csproj.AssemblyReference.cache
+C:\Users\Mihael Cindori\Desktop\CSharp\Part11\Enumerables\Enumerables\obj\Debug\Enumerables.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mihael Cindori\Desktop\CSharp\Part11\Enumerables\Enumerables\obj\Debug\Enumerables.csproj.CoreCompileInputs.cache
+C:\Users\Mihael Cindori\Desktop\CSharp\Part11\Enumerables\Enumerables\bin\Debug\Enumerables.exe.config
+C:\Users\Mihael Cindori\Desktop\CSharp\Part11\Enumerables\Enumerables\bin\Debug\Enumerables.exe
+C:\Users\Mihael Cindori\Desktop\CSharp\Part11\Enumerables\Enumerables\bin\Debug\Enumerables.pdb
+C:\Users\Mihael Cindori\Desktop\CSharp\Part11\Enumerables\Enumerables\obj\Debug\Enumerables.exe
+C:\Users\Mihael Cindori\Desktop\CSharp\Part11\Enumerables\Enumerables\obj\Debug\Enumerables.pdb

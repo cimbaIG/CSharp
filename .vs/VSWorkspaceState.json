@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Part10",
     "\\Part10\\Lambda",
-    "\\Part10\\Lambda\\Lambda"
+    "\\Part10\\Lambda\\Lambda",
+    "\\Part11\\Enumerables",
+    "\\Part11\\Enumerables\\Enumerables"
   ],
-  "SelectedNode": "\\Part10\\Lambda\\Lambda\\Program.cs",
+  "SelectedNode": "\\Part11",
   "PreviewInSolutionExplorer": false
 }
