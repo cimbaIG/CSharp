@@ -60,6 +60,29 @@ namespace Generics
             Rectangle<string> rec2 = new Rectangle<string>("20", "50");
             Console.WriteLine(rec2.GetArea());
 
+            // Create delegate objects
+            Arithmetic add, sub, addSub;
+
+            // Assign just the Add method
+            add = new Arithmetic(Add);
+
+            // Assign just the Subtract method
+            sub = new Arithmetic(Subtract);
+
+            // Assign Add and Sub
+            addSub = add + sub
+
+            // We can also subtract a method
+            // sub = addSub - add;
+
+            // Print out the results
+            Console.WriteLine($"Add {6} and {10}");
+            add(6, 10);
+
+            // Call both methods
+            Console.WriteLine($"Add & Subtract {10} & {4}");
+            addSub(10, 4);
+
             Console.ReadKey();
         }
     }
@@ -99,5 +122,21 @@ namespace Generics
             return string.Format($"{Width} * {Length} = "
                 + $"{dblWidth * dblLength}");
         }
+    }
+
+    // Define a delegate type that performs arithmetic. It defines the return
+    // type and the types for attributes.
+    public delegate void Arithmetic(double x, double y);
+
+    // Methods that will be assigned to the delegate
+
+    public static void Add(double x, double y)
+    {
+        Console.WriteLine($"{x} + {y} = {x + y}");
+    }
+
+    public static void Subtract(double x, double y)
+    {
+        Console.WriteLine($"{x} - {y} = {x - y}");
     }
 }

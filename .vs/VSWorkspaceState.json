@@ -1,7 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Generics",
     "\\Generics\\TimCoreyYoutube",
     "\\Generics\\TimCoreyYoutube\\ConsoleUI",
     "\\Generics\\TimCoreyYoutube\\ConsoleUI\\Models",
@@ -9,8 +8,9 @@
     "\\Generics\\TimCoreyYoutube\\ConsoleUI\\obj\\Debug",
     "\\Generics\\TimCoreyYoutube\\ConsoleUI\\Properties",
     "\\Generics\\TimCoreyYoutube\\ConsoleUI\\WithGenerics",
-    "\\Generics\\TimCoreyYoutube\\ConsoleUI\\WithoutGenerics"
+    "\\Generics\\TimCoreyYoutube\\ConsoleUI\\WithoutGenerics",
+    "\\Part10"
   ],
-  "SelectedNode": "\\Generics\\TimCoreyYoutube\\ConsoleUI\\WithGenerics\\GenericTextFileProcessor.cs",
+  "SelectedNode": "\\Part10",
   "PreviewInSolutionExplorer": false
 }
