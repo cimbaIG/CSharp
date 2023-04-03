@@ -119,7 +119,14 @@ namespace Lambda
 
             var numList5 = new List<int>() { 1, 2, 3, 4, 5 };
             Console.WriteLine("Any > 3: {0}",
-                numList4.Any(a => a > 3));
+                numList5.Any(a => a > 3));
+
+            // ----------------------- DISTINCT -----------------------
+
+            // Eliminates duplicates from a list.
+            var numList6 = new List<int>() { 1, 2, 3, 2, 3 };
+            Console.WriteLine("Distinct: {0}",
+                string.Join(", ", numList6.Distinct()));
 
             Console.ReadLine();
         }
