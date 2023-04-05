@@ -47,6 +47,27 @@ namespace Enumerables
             // Output box4 data
             Console.WriteLine($"Box 4 : {box4}");
 
+            // Sometimes there is a need for building up a simple class that
+            // contains fields and Anonymous types are great for that.
+            var shopkins = new { Name = "Shopkins", Price = 4.99 };
+
+            Console.WriteLine("{0} costs ${1}", shopkins.Name, 
+                shopkins.Price);
+
+            // Anonymous types can also be stored in an array
+            var toyArray = new[]
+            {
+                new { Name = "Yo-Kai Pack", Price = 4.99 },
+                new { Name = "Legos", Price = 9.99 }
+            };
+
+            // We can loop through the array
+            foreach (var item in toyArray)
+            {
+                Console.WriteLine("{0} costs ${1}",
+                    item.Name, item.Price);
+            }
+
             Console.ReadLine();
         }
     }
